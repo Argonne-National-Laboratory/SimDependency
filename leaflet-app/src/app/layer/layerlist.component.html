@@ -1,0 +1,19 @@
+<nav>
+	<ul id="slide-out" class="side-nav fixed" [style.transform]="'translateX(0px)'">
+		<li class="no-padding">
+			<ul class="collasible collapsible-accordion" materialize="collapsible" data-collapsible="accordion">
+				<li>
+					<a class="collapsible-header active">Layers</a>
+					<div class="collapsible-body" [style.display]="block">
+						<ul>
+							<li *ngFor="let layer of layers">
+								<app-layer [layerToWatch]="layer" (added)="onLayerAdd($event)" (removed)="onLayerRemove($event)" (downstreamClicked)="onDownstreamOrUpstreamClicked($event)" (upstreamClicked)="onDownstreamOrUpstreamClicked($event)"></app-layer>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<a href="#" data-activates="slide-out" class="button-collapse" materialize="sideNav" [materializeParams]="[{edge: 'left', closeOnClick: false}]"><i class="material-icons">menu</i></a>
+</nav>

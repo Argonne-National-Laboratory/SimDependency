@@ -1,0 +1,24 @@
+.pin-customizer {
+  min-width: 300px;
+  background: #fff;
+  padding: 3px;
+}
+
+.color-row {
+  width: 100%;
+  clear: both;
+}
+
+.color-picker {
+  width: 20px;
+  height: 20px;
+}
+
+.padded-container {
+  float: left;
+  margin: 2px;
+}
+
+.padded-container:hover {
+ box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+}

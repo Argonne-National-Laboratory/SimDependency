@@ -1,0 +1,31 @@
+#mapid { 
+		position: absolute;
+	    top: 0px;
+	    width: 100%;
+	    height: 100%;
+	}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 20em;
+    z-index: 314150;
+}
+
+@media (min-width: 62em) {
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 30em;
+		z-index: 314150;
+	}
+}
+
+@media (max-width: 62em) {
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 4em;
+		z-index: 314150;
+	}
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "Endpoint": "spatial/layers",
+        "Returns": "JSON",
+        "Description": "Returns list of currently available indexable layers"
+    },
+    {
+        "Endpoint": "spatial/point/",
+        "Returns": "HTML",
+        "Description": "Documentation page for all child routes that allow spatial searches involving points"
+    },
+    {
+        "Endpoint": "spatial/wkt/",
+        "Returns": "HTML",
+        "Description": "Documentation page for all child routes that allow spatial searches involving WKT strings"
+    }
+]

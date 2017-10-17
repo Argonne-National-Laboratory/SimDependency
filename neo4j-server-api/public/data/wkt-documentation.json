@@ -1,0 +1,12 @@
+[
+    {
+        "Endpoint": "wkt/:line_string",
+        "Returns": "JSON",
+        "Description": "Returns all spatially indexed nodes that intersect the current WKT"
+    },
+    {
+        "Endpoint": "wkt/:line_string/filter/:filter_label",
+        "Returns": "JSON",
+        "Description": "Returns all spatially indexed nodes matching the :filter_label that intersect the WKT"
+    }
+]

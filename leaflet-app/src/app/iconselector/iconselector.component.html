@@ -1,0 +1,18 @@
+<div class="pin-customizer">
+  <div class="color-row">
+    <div *ngFor="let color of firstRowColors" class="padded-container">
+      <div [style.background]="color" class="color-picker"></div>
+    </div>
+  </div>
+  <div class="color-row">
+    <div *ngFor="let color of secondRowColors" class="padded-container">
+      <div [style.background]="color" class="color-picker"></div>
+    </div>
+  </div>
+  <div class="color-row">
+    <div *ngFor="let color of thirdRowColors" class="padded-container">
+      <div [style.background]="color" class="color-picker"></div>
+    </div>
+  </div>
+  <div style="clear: both"></div>
+</div>

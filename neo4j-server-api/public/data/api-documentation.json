@@ -1,0 +1,17 @@
+[
+  {
+    "Endpoint": "api/node",
+    "Returns": "HTML",
+    "Description": "Documentation page for all child routes that give access to node data in the neo4j database"
+  },
+  {
+    "Endpoint": "api/model",
+    "Returns": "HTML",
+    "Description": "Documentation page for all child routes that give access to dependency model data in the neo4j database"
+  },
+  {
+    "Endpoint": "api/spatial",
+    "Returns": "HTML",
+    "Description": "Documentation page for all child routes that give access to spatial search features of the neo4j database"
+  }
+]

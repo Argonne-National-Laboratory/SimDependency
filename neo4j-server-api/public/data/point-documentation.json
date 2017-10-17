@@ -1,0 +1,22 @@
+[
+    {
+        "Endpoint": "point/:lat,:long/",
+        "Returns": "JSON",
+        "Description": "Returns all spatially indexed nodes within a default radius of 10 km"
+    },
+    {
+        "Endpoint": "point/:lat,:long/radius/:radius_value",
+        "Returns": "JSON",
+        "Description": "Returns all spatially indexed nodes within a radius of :radius_label"
+    },
+    {
+        "Endpoint": "point/:lat,:long/filter/:filter_label",
+        "Returns": "JSON",
+        "Description": "Returns all spatially indexed nodes matching :filter_label within a default radius of 10km"
+    },
+    {
+        "Endpoint": "point/:lat,:long/radius/:radius_value/filter/:filter_label",
+        "Returns": "JSON",
+        "Description": "Returns all spatially indexed nodes matching :filter_label within a defined radius of :radius_value."
+    }
+]

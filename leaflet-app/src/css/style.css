@@ -1,0 +1,197 @@
+path.islands {
+  stroke: rgb(220, 220, 220);
+  stroke-opacity: 0.5;
+  stroke-width: .5;
+  fill: rgb(220, 220, 220);
+  fill-opacity: 0.2;
+}
+
+path.power-off {
+  stroke: rgb(225, 0, 0);
+  stroke-opacity: 0.5;
+  stroke-width: .8;
+  fill: rgb(225, 0, 0);
+  fill-opacity: 0.2;
+}
+
+path.lines {
+	stroke: rgb(220, 220, 220);
+	stroke-opacity: 1;
+	stroke-width: 1;
+	stroke-dasharray: 2,2;
+}
+
+path.islands .highlight {
+	stroke: rgb(0, 51, 255);
+	stroke-opacity: 0.5;
+	stroke-width: .5;
+	fill: rgb(0, 51, 255);
+	fill-opacity: 0.2;
+}
+
+/*Pin with custom icon*/
+.custom-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.custom-icon div.shape div {
+  -webkit-filter: drop-shadow();
+  filter: drop-shadow();
+  background: #00cae9;
+}
+
+.custom-icon .pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  position: absolute;
+  transform: rotate(-45deg);
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.custom-icon .diamond {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  position: absolute;
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.custom-icon .square {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.custom-icon .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.custom-icon .symbol {
+  position: absolute;
+  text-align:center;
+  width:30px;
+  top:20%;
+  color: white;
+  background-color: none;
+  font-size:15px;
+}
+.custom-icon .notification {
+    position:absolute;
+    right:-10px;
+    top: 5px;
+    border-radius: 15px;
+    background: #DD2630;
+    min-width: 15px;
+    padding:1px;
+    text-align:center;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.custom-icon .notification-semitransparent {
+    position:absolute;
+    right:-10px;
+    top: 5px;
+    border-radius: 15px;
+    background: #DD2630;
+    min-width: 15px;
+    padding:1px;
+    text-align:center;
+    box-shadow: 0px 0px 5px #888888;
+    opacity: 0.2;
+}
+
+ .custom-icon .notification span {
+  font-size:10px;
+  color:#ffffff;
+  font-family:Helvetica, Sans-serif; 
+}
+
+/* start pulse-effect related styles */
+.pulse-effect {
+  height: 58px;
+  position: absolute;
+  width: 58px;
+}
+
+.pulse-effect img {
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.pulse-effect::before,
+.pulse-effect::after {
+  animation: pulse 2s linear infinite;
+  border: #e6e8bf solid 8px;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  content: ' ';
+  height: 140%;
+  left: -20%;
+  opacity: .6;
+  position: absolute;
+  top: -20%;
+  transform: scale(0.714);
+  width: 140%;
+  z-index: 1;
+}
+
+.pulse-effect::after {
+  animation-delay: 1s;
+}
+
+/* end pulse-effect related styles */
+
+.leaflet-popup-tip .wait,
+.leaflet-popup-pane .wait,
+.leaflet-popup .wait,
+.leaflet-popup-content .wait {
+  cursor: wait;
+}
+
+.leaflet-popup-tip,
+.leaflet-popup-pane,
+.leaflet-popup,
+.leaflet-popup-content {
+  cursor: auto;
+}
+
+.info-popup td, th {
+  padding: 2px 0px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.info-popup a:hover {
+  text-decoration: none;
+}
+
+.btn.infoBtn {
+  font-size: 10px;
+  font-variant-caps: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightgray;
+  border-radius: 15px;
+  height: 20px;
+  line-height: 20px;
+}

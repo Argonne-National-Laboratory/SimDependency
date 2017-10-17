@@ -1,0 +1,22 @@
+[
+    {
+        "Endpoint": "model/all",
+        "Returns": "JSON",
+        "Description": "Returns description of all nodes in dependency model, including attributes"
+    },
+    {
+        "Endpoint": "model/:node_label",
+        "Returns": "JSON",
+        "Description": "Description of a node in the dependency model, including basic metadata properties about the given node type."
+    },
+    {
+        "Endpoint": "model/:node_label/depends_on",
+        "Returns": "JSON",
+        "Description": "Returns a collection of dependency model nodes that support the operation of the current :node_label"
+    },
+    {
+        "Endpoint": "model/:node_label/required_by",
+        "Returns": "JSON",
+        "Description": "Returns a collection of dependency model nodes that rely on the current :node_label in order to operate"
+    }
+]

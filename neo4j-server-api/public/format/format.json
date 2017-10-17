@@ -1,0 +1,80 @@
+[
+    {
+        "keys": [
+            "nodes(path)"
+        ],
+        "length": 1,
+        "_fields": [
+            [
+                {
+                    "identity": {
+                        "low": 3073,
+                        "high": 0
+                    },
+                    "labels": [
+                        "DepModel"
+                    ],
+                    "properties": {
+                        "label": "Bus",
+                        "category": "Electric_Carrier"
+                    }
+                },
+                {
+                    "identity": {
+                        "low": 3075,
+                        "high": 0
+                    },
+                    "labels": [
+                        "DepModel"
+                    ],
+                    "properties": {
+                        "label": "PowerPlant",
+                        "category": "Electric_Generator"
+                    }
+                }
+            ]
+        ],
+        "_fieldLookup": {
+            "nodes(path)": 0
+        }
+    },
+    {
+        "keys": [
+            "nodes(path)"
+        ],
+        "length": 1,
+        "_fields": [
+            [
+                {
+                    "identity": {
+                        "low": 3073,
+                        "high": 0
+                    },
+                    "labels": [
+                        "DepModel"
+                    ],
+                    "properties": {
+                        "label": "Bus",
+                        "category": "Electric_Carrier"
+                    }
+                },
+                {
+                    "identity": {
+                        "low": 3082,
+                        "high": 0
+                    },
+                    "labels": [
+                        "DepModel"
+                    ],
+                    "properties": {
+                        "label": "NGBus",
+                        "category": "Electric_Generator"
+                    }
+                }
+            ]
+        ],
+        "_fieldLookup": {
+            "nodes(path)": 0
+        }
+    }
+]

@@ -1,0 +1,74 @@
+<div id="btnForm" (click)="onShowClick()"><span><i class="material-icons">note_add</i></span></div>
+
+<template [ngIf]="showWindow">
+    <div class="overlay">
+        <div class="middle">
+            <div class="card card-5 file-upload-window">
+                <div class="row">
+                    <form materialize class="col s12">
+
+                        <div class="col s1 offset-s10">
+                            <a class="waves-effect waves-teal btn-flat" (click)="onCancelClick()">X</a>
+                        </div>
+
+                        <legend>Upload Infrastructure Data</legend>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">note_add</i>
+                                <input [(ngModel)]="ciLayer.humanName" (keyup)="toSlug()" id="layer-name" type="text" class="validate">
+                                <label for="layer-name">Layer Name</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input [(ngModel)]="ciLayer.layerName" disabled id="layer-slug" type="text" class="validate">
+                                <label *ngIf="ciLayer.layerName.length < 1" for="layer-slug">Layer Slug</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select [(ngModel)]="ciLayer.featureType" materialize="material_select" [materializeSelectOptions]="featureTypes" id="select-feature-class">
+                                    <option value="" disabled selected>Select feature type...</option>
+                                    <option [value]="item" *ngFor="let item of featureTypes">{{ item }}</option>
+                                    <option value="new">Add new...</option>
+                                </select>
+                                <label>Feature Type</label>
+                            </div>
+                        </div>
+
+                        <div *ngIf="ciLayer.featureType === 'new'" class="row">
+                            <div class="input-field col s12">
+                                <input id="new-featuretype" type="text" class="validate">
+                                <label for="new-featuretype">New Feature Type</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <p>Custom Layer Pin</p>
+                                <app-iconselector></app-iconselector>
+                            </div>
+                        </div>
+
+                        <div *ngIf="toggleProgress" class="progress">
+                            <div class="indeterminate"></div>
+                        </div>               
+
+                        <div class="row">
+                          <app-filebutton (getFile)="onGetFile($event)" (error)="onError($event)"></app-filebutton>                            <a materialize class="btn disabled" id="file-upload-submit-button" (click)="onSubmitFile($event)">Submit</a>
+                        </div>
+
+
+                        <div *ngIf="toggleError" class="alert alert-danger">
+                            {{ statusMsg }}
+                        </div>
+
+                        <div *ngIf="toggleSuccess" class="alert alert-success">
+                            {{ statusMsg}}
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

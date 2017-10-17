@@ -1,0 +1,28 @@
+.on-map {
+    position: absolute;
+    z-index: 100;
+}
+
+.map-button {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+
+.leaflet-clickable {
+  cursor: crosshair !important;
+}
+
+.leaflet-container {
+  cursor: help !important;
+}
+
+#add-marker.map-button {
+    margin: 20px 0 0 370px;
+}
+
+#remove-marker.map-button {
+    margin: 20px 0 0 410px;
+   
+}

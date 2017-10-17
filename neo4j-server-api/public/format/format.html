@@ -1,0 +1,31 @@
+<% if (hasId) { %>
+    <p>This is the ID page</p>
+    <% } else { %>
+
+        <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
+
+
+        <table class="table table-striped" style="width: 80%; margin: auto; margin-top:5em;">
+            <thead>
+                <tr>
+                    <% for(var i=0; i < keys.length; i++) { %>
+                        <th>
+                            <%= keys[i].toUpperCase() %>
+                        </th>
+                        <% } %>
+                </tr>
+            </thead>
+            <tbody>
+                <% for(var i=0; i < data.length; i++) { %>
+                    <tr>
+                        <% for(var j=0; j < keys.length; j++) { %>
+                            <td>
+                                <%= data[i][keys[j]] %>
+                            </td>
+                            <% } %>
+                    </tr>
+                    <% } %>
+            </tbody>
+        </table>
+
+        <% } %>

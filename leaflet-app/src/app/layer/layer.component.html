@@ -1,0 +1,4 @@
+<a (click)="onClick()" (basemapchange)="restyle($event)" [ngClass]="{'selected' : ciLayer.visible === true}" [mwLayer]="true">
+    {{ciLayer.humanName}}
+<i *ngIf="!loading && isPointLayer" [class]="'fa fa-' + ciLayer.icon.symbol" [style.color]="ciLayer.icon.iconColor"></i>
+</a>

@@ -1,0 +1,13 @@
+<app-layerlist (layerQueried)="onLayerQueried($event)"></app-layerlist>
+<div id="mapid">
+    <div class="overlay">
+        <app-navigator style="transform: translateX(0px);"></app-navigator>
+        <!--<marker (add)="onMarkerAdd($event)" (remove)="onMarkerRemove($event)"></marker>-->
+        <!-- modal sheet -->
+    </div>
+    <div id="modal1" class="modal bottom-sheet" materialize [materializeParams]="[{dismissible: false}]">
+        <div class="modal-content">
+            <h4>hello world</h4>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+.on-map {
+    position: absolute;
+    z-index: 100;
+}
+
+.map-button {
+    text-align: center;
+}
+
+
+.leaflet-clickable {
+  cursor: crosshair !important;
+}
+
+.leaflet-container {
+  cursor: help !important;
+}
+
+input[type=text] {
+    margin: 20px 0 0 20px;
+    width: 300px;
+    height: 35px;
+    border: 2px solid rgba(77, 156, 237, 0.7);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 1em;
+}
+
+#goto.map-button {
+    margin: 20px 0 0 350px;
+}

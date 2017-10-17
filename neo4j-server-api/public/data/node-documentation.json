@@ -1,0 +1,32 @@
+[
+    {
+        "Endpoint": "node/:node_label",
+        "Returns": "JSON",
+        "Description": "Returns all nodes that match the provided :node_label"
+    },
+    {
+        "Endpoint": "node/:node_label/:node_id",
+        "Returns": "JSON",
+        "Description": "Description of a specific node in the databae, returns information about node including label, ID, latitutude, longitude"
+    },
+    {
+        "Endpoint": "node/:node_label/:node_id/depends_on",
+        "Returns": "JSON",
+        "Description": "Returns a collection of nodes that need to be functional for the current :node_label to operate"
+    },
+    {
+        "Endpoint": "node/:node_label/:node_id/depends_on/filter/:filter_label",
+        "Returns": "JSON",
+        "Description": "Returns a collection of nodes that need to be functional for the current :node_label to operate, but results are filtered to show only results matching the :filter_label"
+    },
+    {
+        "Endpoint": "node/:node_label/:node_id/required_by",
+        "Returns": "JSON",
+        "Description": "Returns a collection of nodes that rely on the current :node_label in order to operate"
+    },
+    {
+        "Endpoint": "node/:node_label/:node_id/required_by/filter/:filter_label",
+        "Returns": "JSON",
+        "Description": "Returns a collection of nodes that rely on the current :node_label, but results are filtered to show only results matching the :filter_label"
+    }
+]
