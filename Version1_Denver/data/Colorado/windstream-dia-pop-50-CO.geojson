@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Placemark", "FolderPath": "Windstream DIA POP: 1G-10G Internet - Callahan", "SymbolID": 0, "AltMode": -1, "Base": 0.000000, "Snippet": null, "PopupInfo": "DNVTCOUZ - 2975 Walnut St, Denver, CO 80205", "HasLabel": -1, "LabelID": 0 }, "geometry": { "type": "Point", "coordinates": [ -104.982052, 39.762842, 0.0 ] } }
+]
+}

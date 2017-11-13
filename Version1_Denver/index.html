@@ -1,0 +1,106 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="media/css/third_party/leaflet.css" />
+  <link rel="stylesheet" href="media/js/third_party/MarkerCluster.css" />
+  <link rel="stylesheet" href="media/js/third_party/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="media/css/third_party/leaflet-routing-machine.css" />
+  <link rel="stylesheet" href="media/css/map.css" />
+  <link rel="stylesheet" href="media/css/controls.css" />
+  <link rel="stylesheet" href="media/css/avatar.css" />
+
+  <!-- third party js frameworks including leaflet, jquery, jquery-ui, d3 -->
+  <script src="media/js/third_party/leaflet.js"></script>
+  <script src="media/js/third_party/d3.v3.min.js" charset="utf-8"></script>
+  <script src="media/js/third_party/jquery.min.js"></script>
+  <script src="media/js/third_party/jquery-ui/jquery-ui.js"></script>
+  <script src="media/js/third_party/leaflet/dist/leaflet-src.js"></script>
+  <script src="media/js/third_party/catiline.js"></script>
+  <script src="media/js/third_party/leaflet.shpfile.js"></script>
+
+  <!-- Leaflet addons -->
+  <script src="media/js/third_party/Map.ContextMenu.js"></script>
+
+  <!-- leaflet markerCluster plugin -->
+  <script src="media/js/third_party/leaflet.markercluster.js"></script>
+  <!-- leaflet MovingMarker plugin -->
+  <!-- page controls -->
+  <script src="app/icons.js"></script>
+
+</head>
+
+
+<body>
+  <div id="header"><img id="brand_img" src="media/images/dhs.png" />
+    <div id="brand">Denver RRAP
+      <br />Planning Map</div>
+    <div id="KF"> <a href=# onclick=loadOverview()></a>
+      <br /> <a href=# onclick=loadKeyFindings()></a> </div>
+  </div>
+  <div id="fouo_top"></div>
+  <div id="statistics"> </div>
+  <div id="close_iframe"> <img onclick=closeIframe() src="media/images/close.png" /> </div>
+  <div id="sidebar"> </div>
+  <div id="sidebar_close">
+    <a href=# onclick=closeSidebar()><img src="logos/close.png" /></a>
+  </div>
+
+  <div id="map"> </div>
+
+  <div id="dialog"> </div>
+  <div id="loading"> &nbsp;Loading...
+    <br /><img src="media/images/loading.gif"> </div>
+  <div id="controlsX">
+    <div id="layers"> Click to toggle: (<a href="#" onclick="toggleAll(1)">All Off</a>) (<a href="#" onclick="toggleAll(0)">All On</a>)
+      <br />
+      <hr />
+      <div id="layer_content"></div>
+    </div>
+  </div>
+  </div>
+  <div id="legend"> All data center information in this map was gathered from publicly available sources.  Information should not be considered complete.  Data is best-effort accurate as of Spring 2017.
+    <div id='legend_content'>
+      <br />
+      <table>
+        <tr>
+          <td><b>Legend:</b></td>
+          <td><img src='/media/images/power.png'> Power Substation</td>
+          <td><img src='/media/images/server.png'>Data Center
+            <br/>
+          </td>
+          <td><span id='fiber' style='background:#58ACFA'></span>Fiber
+            <br/>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="fouo"> WARNING: This product contains FOR OFFICIAL USE ONLY (FOUO) information. It contains information that may be exempt from public release under the Freedom of Information Act (5 U.S.C. 552). It is to be controlled, stored, handled, transmitted, distributed, and disposed of in accordance with DHS policy relating to FOUO information and is not to be released to the public or other personnel who do not have a valid “need-to-know” without prior approval of an authorized DHS official.
+    <br />
+    <br />
+    <center>
+      <button onclick="jQuery('#fouo').hide(400, 'swing');">I Understand.</button>
+    </center>
+  </div>
+
+  </div>
+  <!-- <script>
+    jQuery("button").button();
+  </script> -->
+
+
+  <script src="app/map.js"></script>
+
+
+
+  <script src="app/layer_ops.js"></script>
+  <script src="app/layers.js"></script>
+  <script src="app/build_page.js"></script>
+  <div id="footer"></div>
+  <script>
+
+  </script>
+</body>
+
+</html>

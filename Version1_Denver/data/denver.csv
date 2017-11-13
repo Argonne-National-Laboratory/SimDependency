@@ -1,0 +1,382 @@
+Owner,Address,City,County,State,Invitee POC Name,Contact (via FBI),FBI PoC,Title,Email,Phone,Square Footage,Land,Datacenter location verified?,LatLng,FBI Connection Through,Notes,Services,Tenants/CoUsage,NCC ObjectID,TELCO_HOTEL_ID,Floorplan,Power,Fiber,Network POEs,Known Carriers,UPS Redundancy,Generator Redundancy,HVAC Redundancy,Onsite Fuel Capacity,Onsite Water,Known Peers,Compliance,Logo,Wikipedia,Callname,Homepage,Other,
+CoreSite Denver (DE1),910 15th st,Denver,,Colorado,,,,,,,"14,000+
+120 lbs/sq.ft
+24' x24' column spacing",,,"39.745603, -104.995665",,"Located in downtown Denver’s landmark Gas and Electric Building, CoreSite’s DE1 data center is one of two colocation facilities in the Denver market and is  positioned in the center of several key national and regional network fiber plants. ","Colocation, Cloud: CoreSite Open Cloud Exchange, SoftLayer Direct Link, and Google Cloud Platform","CenturyLink, Level3, Akamai, Verison, Gaikai, Softlayer, Yahoo!, Zayo, Apple, Inc., Charter, Microsoft, Dish, Google",,,,"3 DC Plants with 130 kW capacity Multiple Power Feeds, Redundatnt LinesAC/DC","Multiple entry points, redundant fiber-optic loops",,"Carrier Neutral
+http://www.coresite.com/resources/resource-library/additional/carrier-list","Yes: N, and 2N
+2 Powerware 80 KVA UPS systems, 
+3 APC 100 KVA N+1 UPS Systems",N+1,"Building has no HVAC. Tenants have  own closed-loop air conditioning system located on the rooftop. 
+",Y: 24 hours,"DE1 has chilled water supplied by Xcel Energy, specifically: N+1 redundancy on CRAHs and chilled water pumps","
+CoreSite - Any2 Denver / Formerly RMIX (34 Networks)
+https://www.peeringdb.com/fac/389
+","HIPAA validated
+PCI DSS certified
+ISO 27001 certified
+SOC1 Type 2 and SOC 2 Type 2 certified",https://upload.wikimedia.org/wikipedia/en/b/bf/CoreSite_logo.png,https://en.wikipedia.org/wiki/CoreSite,,http://www.coresite.com/data-centers/locations/denver,Building offers fire supression,
+CoreSite Denver (DE2),639 E 18th Ave,Denver,,Colorado,,,,,,,"5,100+ 
+175 lbs/sq. ft.
+24' x24' column spacing",,,"39.744857, -104.979089",,"Facility is tethered via dark fiber to CoreSite’s second Denver data center, DE1, which provides customers with access to over 50 national and regional network carriers","Cloud: The CoreSite Open Cloud Exchange
+Access to multiple cloud services, such as Google Cloud Platform, SoftLayer Direct Link and the CoreSite Open Cloud Exchange, provide a variety of cloud solutions.
+","CenturyLink, Level3, Akamai, Verison, Gaikai, Softlayer, Yahoo!, Zayo, Apple, Inc., Charter, Microsoft, Dish, Google",,,,AC/DC,,,"Carrier Neutral
+http://www.coresite.com/resources/resource-library/additional/carrier-list","Y: N, 2N redundancy on UPSs, PDUs, and RPPs",N Redundancy,Dry coolers and condenser water pumps,Y: 24 hours,Dry coolers and condener water pumps,"CoreSite - Any2 Denver / Formerly RMIX
+
+Apple Inc, Riot Games, TDS Telecom","Infrastructure and physical security standards support HIPAA compliance
+PCI DSS certified
+ISO 27001 certified
+SOC 1 Type 2 and SOC 2 Type 2 certified",https://upload.wikimedia.org/wikipedia/en/b/bf/CoreSite_logo.png,https://en.wikipedia.org/wiki/CoreSite,,http://www.coresite.com/data-centers/locations/denver/de2,"Fiber, copper and coaxial cross connects",
+ForTrust,4300 Brighton Blvd,Denver,,Colorado,,,,,,,"300,000+",,,"39.745023, -104.979717",,"managed hosting, managed security, managed storage,
+consulting / professional services, telecommunication,
+data center migration, data analysis, content management, outsourced IT management, hardware procurement, asset management, cabling services
+","Colocation: 100 and 200kW @ 2N data modules,
+Cloud: Cloud neutral,
+Carrier neutral","Etkin Johnson, Blinker, Spotx, Ajubeo, Presilient Worldwide, Wictorops, Lewan, Faction",,,,over 34 MVA of data center capacity. 2N (“A” & “B” side) electrical distribution to critical loads. ,"Multiple carrier fiber facilities and WAN
+connectivity options","Secure diverse vaulted underground entrances. No windows in any of the data center, raised floor or critical areas",Carrier and cloud neutral facility,"Multiple 1,000kVA and 750kVA UPS systems in a 2N+1
+configuration","2MW and 2.5MW generators in an N+1
+configuration",,,"Closed-loop chilled water system; chillers, pumps
+and computer room air handling units. Dual path and bi-directional distribution. 36 inch raised floor for optimum cooling. High density cooling in data modules >1000
+watt/sq.ft. or 35kW/rack","Faction Inc, Rise Broadband","PCI DSS, Tier III Design, Tier III Facility, Tier III Operations, AICPA SOC, HIPAA compliant",http://www.fortrustdatacenter.com/wp-content/uploads/2015/07/fortrust-logo-white.png,,,http://www.fortrustdatacenter.com/denver-data-center/,,
+ViaWest - Denver Wazee,501 Wazee Street,Denver,,Colorado,,,,,,,"6,560 square feet of raised floor capacity",,,"39.744902, -105.012007",,"Telecommunications services available with capacity ranging from T1 to multiple OC192, Ethernet services available from 5 Mbps to multiple 10 Gbps","colocation, cloud,  DRaaS, ","*not sure if this is specific to Denver: Overstock.com, ColorPro, Global DataVault, ZeOmega, StoelRives, Grand Canyon University, Optmal Path, New Belgum, HMS, Documatix, Nexus, LPL Financial, Moroch",,,,"A and B source power circuit delivery capabilities, 480 Volt Utility Power Feed, Automatic power switching
+Multiple redundant power distribution paths, multiple redundant power distribution paths","Multiple redundant fiber optic telecommunication networks delivered via Telcordia/
+Bellcore standards with diverse conduit and entrance facilities",diverse underground entry points into the Denver data center,carrier-neutral connectivity: 29+ telecommunication carriers  ,2N 900 kVA UPS system capacity,"2,000 gallon diesel fuel supply, generator and diesel fuel infrastructure maintained and under 24x7 surveillance, Redundant battery strings","fully redundant cooling system with 260 tons of capacity, Anti-static raised flooring with designated cable runs and cold air delivery, Hot aisle/cold aisle configuration","2,000 gallon diesel fuel supply",,"Public peering exchange pts: CoreSite - Any2 Denver 
+Equinix Chicago
+NWAX
+private peering facilities:
+365 Data Centers Chicago (CH6)
+CoreSite - DE1
+ViaWest Aloclek (PDX01)*I believe these are the same for the viawest sites - I couldn’t find any differing info","SSAE 16 and ISAE 3402 Service Organization Control (SOC) 1 Type II, SOC 2 Type II, and SOC 3, PCI DSS, HIPAA, FISMA and NIST 800-
+53 Standards, adherence to the US-EU Safe Harbor Privacy framework",https://www.viawest.com/sites/default/files/logo_viawest-2x_1.png,,,https://www.viawest.com/data-centers/colorado/wazee-data-center,,
+ViaWest - Denver Tech Center (ViaWest Inc.),12500 East Arapahoe Road,Centennial,,Colorado,,,,,,,"21,374 square feet of raised floor capacity",,,"39.594159, -104.843185",,"Private suites and cages, 100% SLA for power, bandwidth and network services availability, Headquartered in Colorado, ViaWest has five data centes around Denver ","Cloud, colocation, compliance services,  DRaaS, and security","Overstock.com, VAIL, Pearson, backcountry.com, Noodles & Company, Family Search, BillTrust, ColorPro Printing, ZeOmega, Global Data Vault, Tomax, Net-Inspect *unclear if all of these clients are hosted in colorado, or in all viawest's overall datacenter set  ",,,,"A and B source power circuit delivery capabilities,  Automatic power switching, Branch circuit monitoring","Multiple redundant fiber optic telecommunication networks delivered via Telcordia/
+Bellcore standards with diverse conduit and entrance facilities. Telecommunication services available from T1 to multiple OC192. Ethernet services available from 5 Mbps to multiple 10 Gbps",diverse underground entry points to the data center,29+ telecommunication carriers ensure carrier-neutral connectivity," 2N 2,550 kVA UPS system, multiple redundant power distribution paths, Redundant battery strings with monitoring",,"716 tons of redundant HVAC capacity, Anti-static raised flooring with designed cable runs and cooled air delivery, Hot aisle-cold aisle configuration, Fully cabled for typical customer applications","5,300 gallon diesel fuel supply",,"Public peering exchange pts: CoreSite - Any2 Denver 
+Equinix Chicago
+NWAX
+private peering facilities:
+365 Data Centers Chicago (CH6)
+CoreSite - DE1
+ViaWest Aloclek (PDX01)",ViaWest has a dual-standard SSAE 16 and ISAE 3402 Service Organization Control,https://www.viawest.com/sites/default/files/logo_viawest-2x_1.png,,,https://www.viawest.com/data-centers/colorado/arapahoe-data-center,"24x7 key card access with secondary biometric authentication, Monitored security cameras and intercom system Power delivery, generator and diesel fuel infrastructure maintained in secured areas, Clean agent fire extinguishers placed throughout the facility, Certified data center smoke detection system",
+ViaWest- Compark Data Center,8636 S Peoria Street,Englewood,,Colorado,,,,,,,"140,000 square feet of raised floor capacity ",,,"39.558600, -104.838906",,"Designed to be fully redundant and concurrently maintainable, Compark is a high density (700+ Watts/SF) data center. The Compark Data Center features a Power Usage Effectiveness (PUE) of 1.3, among the lowest PUE of any colocation facility. designed to be
+concurrently maintainable and fault tolerant.","Cloud, colocation, compliance services,  DRaaS, and security",QAD,,,,"A and B source power circuit delivery capabilities, multiple medium voltage (13.2kV class) utility power feeds from diverse substations. PLC-based fault tolerant closed transition switchboard, Multiple redundant power distribution paths,  Branch circuit monitoring system","Multiple redundant fiber optic telecommunication networks delivered via Telcordia/
+Bellcore standards with diverse conduit and entrance facilities. Telecommunication services available from T1 to multiple OC192.  Ethernet services available from 5 Mbps to multiple 10 Gbps",,29+ telecommunication carriers ensure carrier-neutral connectivity,"18 MW redundant, fault tolerant UPS capacity, 18,000 kVA UPS system capacity, Redundant battery strings","29 MW redundant, fault tolerant diesel power generation capacity","The cooling system has 6,000 tons of redundant, fault tolerant capacity and 700+ Watts/SF high
+density capacity availability, Highly energy efficient cooling system (1.3 expected PUE).","50,000 gallon diesel fuel",,"Public peering exchange pts: CoreSite - Any2 Denver 
+Equinix Chicago
+NWAX
+private peering facilities:
+365 Data Centers Chicago (CH6)
+CoreSite - DE1
+ViaWest Aloclek (PDX01)*I believe these are the same for the viawest sites - I couldn’t find any differing info","ViaWest has a dual-standard SSAE 16 and ISAE 3402 Service Organization Control
+(SOC) 1 Type II, SOC 2 Type II, and SOC 3 reports covering each of ViaWest’s
+data centers to include operations, policies and procedures, and physical and
+environmental security controls. ViaWest also has facility-specific PCI and HIPAA
+compliance reports for physical security and information security policies. ViaWest
+enables businesses to become compliant in the Financial, Healthcare and Federal
+industries that require regulatory authority of PCI DSS, HIPAA, FISMA, NIST 800-53
+and ITAR standards. Additionally, ViaWest annually registers its adherence to the
+US-EU Safe Harbor Privacy framework",https://www.viawest.com/sites/default/files/logo_viawest-2x_1.png,,,https://www.viawest.com/data-centers/colorado/compark-data-center,"Certified data center smoke detection system, Certified VESDA incipient smoke detection, Dual-Interlock pre-action dry pipe sprinkler system, Clean agent fire extinguishers placed throughout the facility24x7 key card access with secondary biometric authentication, 5-zone security access, 24x7 on-site security personnel, Monitored security cameras and intercom system, Power delivery, generator and diesel fuel infrastructure maintained in secured areas",
+Champa Data Center,1500 Champa Street,Denver,,Colorado,,,,,,,19000 sq ft of data center space,,,"39.745759, -104.994434",,"100% SLA for power, bandwidth and network services availability, 24x7x365 on-site support from engineers with an average tenure of 3+ years, One-stop ViaWest Technical Assistance Center (V-TAC) for remote support
+
+","DRaaS, Interconnection, cloud, colocation, Dr planning",The Digital Ranch,,,,"A and B source power circuit delivery capabilities, 480 Volt Utility Power Feed","Multiple redundant fiber optic telecommunication networks delivered via Telcordia/
+Bellcore standards with diverse conduit and entrance facilities, Telecommunications services available with capacity ranging from T1 to multiple
+OC192, Ethernet services available from 5 Mbps to multiple 10 Gbps",,29+ telecommunication carriers; carrier-neutral connectivity," 2N redundancy, 1,275 kVA UPS system capacity, Redundant battery strings, Multiple redundant power distribution paths, Branch Circuit Monitoring System","1.25 Megawatt diesel power generation capacity, Automatic power switching","300 tons of redundant cooling capacity, Anti-static raised flooring with designated cable runs and cooled air delivery, Hot aisle/cold aisle configuration, Fully cabled for typical customer applications","4,000 gallon diesel fuel supply",,"Public peering exchange pts: CoreSite - Any2 Denver 
+Equinix Chicago
+NWAX
+private peering facilities:
+365 Data Centers Chicago (CH6)
+CoreSite - DE1
+ViaWest Aloclek (PDX01)*I believe these are the same for the viawest sites - I couldn’t find any differing info","ViaWest has a dual-standard SSAE 16 and ISAE 3402 Service Organization Control
+(SOC) 1 Type II, SOC 2 Type II, and SOC 3 reports covering each of ViaWest’s
+data centers to include operations, policies and procedures, and physical and
+environmental security controls. ViaWest also has facility-specific PCI and HIPAA
+compliance reports for physical security and information security policies. ViaWest
+enables businesses to become compliant in the Financial, Healthcare and Federal
+industries that require regulatory authority of PCI DSS, HIPAA, FISMA, NIST 800-53
+and ITAR standards. Additionally, ViaWest annually registers its adherence to the
+US-EU Safe Harbor Privacy framework",https://www.viawest.com/sites/default/files/logo_viawest-2x_1.png,,,https://www.viawest.com/data-centers/colorado/champa-data-center,"Certified data center smoke detection system, Certified incipient smoke detection, FM200 chemical gas suppression system, Single interlock pre-action dry pipe sprinkler system, Dry powder fire extinguishers placed throughout the facility. 24x7 access via dual factor authentication, Monitored security cameras and intercom system, Power delivery, generator and diesel fuel infrastructure maintained and under 24x7
+surveillance",
+1500 Champa - Morgan Reed Group - BUILDING,1500 Champa Street - BUILDING,Denver,,Colorado,,,,,,,"1st Floor = 18,403/sf (fully built out - formerly Teleglobe's Data Center)
+
+1st Floor = 15,000/sf (shell condition)
+
+2nd Floor = 40,000/sf (shell condition)
+
+Sublevel 1 = 18,621/sf (fully built out - formerly MMFN Data Center)",,,"39.745759, -104.994434",,"seems like a shell building, I don’t know if they are housing anyone at the moment","colocation, local exchange carriers, disaster recovery",,,,,"10,000 amps of 480 volt, three phase power.  massive transformer vault ",multiple fiber feeds. Located in a massive fiber optic intersection. Tenants will also have the ability to bring their own fiber into the building,,"carrier neutral - can include o Genuity
+o (GTE Internetworking) Aperian
+o CO Space InterNAP
+o XO/Nextlink Level 3 Communications
+o Metromedia Fiber Network Pathnet
+o MCI/Worldcom Teleglobe
+o Qwest/U.S. West Telseon
+o 360 Networks Cogent Communications
+o Time Warner Telecom Cbeyond Communications
+o Terabeam PF.Net/Velocita
+o Yipes LightOne Communications",,  generator farm ,supplemental HVAC,"demised fuel storage tank bays available to place fuel storage tanks in the basement of the building. Each fuel storage tank to have a capacity of up to 12,000 gallons of diesel fuel with special fire rated enclosures.",A building water riser is in place for tenants to tap into for their own wet pre-action fire protection systems,,,,,,,"24/7 on site security. security system is also in place for tenants, with an alarm system monitoring all points of ingress and egress to the building. Floor access is controlled by elevator keypad, which allows tenants the security they require. 24 x 7 closed circuit television monitoring.",
+Cornell Data Center,11900 Cornell Avenue,Aurora,,Colorado,,,,,,,"103,269 square feet of raised floor capacity",,,"39.661034, -104.850240",,"The Cornell data center utilizes dual diverse utility power feeds for the
+ultimate in redundancy and the most powerful, yet energy efficient
+cooling system. This data center also leads the Rocky Mountain region in its utilization of green technology. Through the use of wind energy to generate power and economizers, ViaWest has dramatically reduced its carbon footprint.","DRaaS, Interconnection, cloud, colocation, Dr planning",,,,,"A and B source power circuit delivery capabilities, Dual redundant 6.5 Megawatt power utility deliveries with onsite substations, Multiple redundant power distribution paths, Branch circuit monitoring","Multiple redundant fiber optic telecommunication networks delivered via Telcordia/
+Bellcore standards with diverse conduit and entrance facilities, Telecommunication services available from T1 to multiple OC192, Ethernet services available from 5 Mbps to multiple 10 Gbps",,29+ telecommunication carriers; carrier-neutral connectivity,"15,000 kVA UPS system capacity and 2(N+1) redundancy, Redundant battery strings with monitoring","10.4 megawatt diesel power generation capacity, Automatic power switching","3,760 tons of redundant cooling capacity, Anti-static raised flooring, Hot aisle-cold aisle configuration, Fully cabled for typical customer applications",,,"Public peering exchange pts: CoreSite - Any2 Denver 
+Equinix Chicago
+NWAX
+private peering facilities:
+365 Data Centers Chicago (CH6)
+CoreSite - DE1
+ViaWest Aloclek (PDX01)*I believe these are the same for the viawest sites - I couldn’t find any differing info","ViaWest has a dual-standard SSAE 16 and ISAE 3402 Service Organization Control
+(SOC) 1 Type II, SOC 2 Type II, and SOC 3 reports covering each of ViaWest’s
+data centers to include operations, policies and procedures, and physical and
+environmental security controls. ViaWest also has facility-specific PCI and HIPAA
+compliance reports for physical security and information security policies. ViaWest
+enables businesses to become compliant in the Financial, Healthcare and Federal
+industries that require regulatory authority of PCI DSS, HIPAA, FISMA, NIST 800-53
+and ITAR standards. Additionally, ViaWest annually registers its adherence to the
+US-EU Safe Harbor Privacy framework",https://www.viawest.com/sites/default/files/logo_viawest-2x_1.png,,,https://www.viawest.com/data-centers/colorado/cornell-data-center,"Certified data center smoke detection system, Certified incipient smoke detection, Dual-Interlock pre-action dry pipe sprinkler system, Clean agent fire extinguishers placed throughout the facility24x7 access via dual factor authentication, Monitored security cameras and intercom system, Power delivery, generator and diesel fuel infrastructure maintained in secured areas",
+RockyNet Inc. Denver,1050 Seventeenth Street,Denver,,Colorado,,,,,,,,,,"39.748357, -104.994239",,"Geographical Redundancy
+Static-Free Raised Flooring. Colocation, cloud, and server management","colocation, cloud, VaaS, managed LAMP, backup and recovery",,,,,,,,, UPS Power Redundancy. UPS will carry the power load of the data center until the generator is ready to maintain the full load. This generally takes three to five seconds. RockyNet has duel UPS to offer true A&B feeds if needed.,Generator Power Redundancy. RockyNet's data center is backed by a 700-gallon Cummins diesel generator. At projected load the generator can operate for up to three days without needing to be refilled. the generator is placed on a top priority list in case of a disaster to have trucks roll to automatically fill it up. ," N+1 Cooling, Multiple redundant 20-ton Liebert HVAC units, supported by redundant power, are strategically placed to create air flow.",3 days of fuel,,,"SSAE-16, HIPAA and PCI compliant facility",http://www.rockynet.com/sites/all/themes/danland/images/new_logo.png,,,http://www.rockynet.com/content/rockynet,,
+RockyNet Inc. Boulder,382 S. Arthur Ave,Louisville,,Colorado,,,,,,,"4,600 sq.ft.",,,"39.965456, -105.124283",," Geographical Redundancy
+Static-Free Raised Flooring. Colocation, cloud, and server management","colocation, cloud, VaaS, managed LAMP, backup and recovery",CodeFutures,,,,reduntant power,"two 1000Mbps that come in to the facility. The ports are provided by redundant providers and hit blended providers at the facility's other infrastructure sites. If one of the major ports were to experience failure, tennant servers would be routed through the other provider to the internet. ",,, UPS Power Redundancy. UPS will carry the power load of the data center until the generator is ready to maintain the full load. This generally takes three to five seconds. RockyNet has duel UPS to offer true A&B feeds if needed.,Generator Power Redundancy. RockyNet's data center is backed by a 700-gallon Cummins diesel generator. At projected load the generator can operate for up to three days without needing to be refilled. the generator is placed on a top priority list in case of a disaster to have trucks roll to automatically fill it up. ," N+1 Cooling, Multiple redundant 20-ton Liebert HVAC units, supported by redundant power, are strategically placed to create air flow.",3 days of fuel,,,"SSAE-16, HIPAA and PCI compliant facility",http://www.rockynet.com/sites/all/themes/danland/images/new_logo.png,,,http://www.rockynet.com/content/rockynet,,
+Icelab Networks,"80112 Denver
+Colorado, USA",Denver,,Colorado,,,,,,,,,,,,this data center is not very forthcoming with their data - wont even list a specific address. ,"colocation, leased servers, ""99.99% Uptime Guarantee ""
+100 Mbit Multi-Homed Connection, Real-time traffic monitoring ",CodeFutures,,,,redundant power ,"two 1000Mbps that come in to the facility. The ports are provided by redundant providers and hit blended providers at the facility's other infrastructure sites. If one of the major ports were to experience failure, tennant servers would be routed through the other provider to the internet. ",,"Carrier neutral  - Carriers currently include AT&T, Level3, and Savvis. ""If a provider fails, traffic is automatically re-routed over the next available path keeping your systems online and available to your customers with a 99.99% guarantee""",,,redundant cooling,,,,"data centers to include operations, policies and procedures, and physical and",http://icelab.com/images/logo-tm.gif,,,http://icelab.com/,"Key cards and biometrics
+24x7 video surveillance
+Ultrasonic Humidifiers",
+"Vastnet - Denver, CO","800E 73rd Av
+80229 Denver",Denver,,Colorado,,,,,,,,,,"39.828708, -104.976552",,"Vastnet owns and operates 2 datacenters, one in Melville, NY (Long Island) and the other in Denver, CO.,
+The building is located high above the surrounding ground and has a concrete water run-off pit on the low side to channel water away.  ","colocation, 10/100 Ethernet Feed, Dedicated Switch port",,,,,"Private Electrical Feed
+ All cabinets tie into a central patch panel, and 3-phase power is inside the facility for client use.","Microwave links to backbones - speeds ranging from 1 M/bps to 1 G/bps.  backbone node on several fiber networks. 
+wired with a Ethernet Backbone by Vastnet. 
+Traditional T1 and 56K dedicated",,"Carrier neutral  - Carriers currently include AT&T, Level3, and Savvis. ""If a provider fails, traffic is automatically re-routed over the next available path keeping your systems online and available to your customers with a 99.99% guarantee""",Backup Power - separate UPS systems in each cabinet,none - depends on batter power,no a/c - outside air cooling,no -  No generator,"outside air is filtered, then cooled with water, and in the winter, its just filtered and brought in.",,environmental security controls. ViaWest also has facility-specific PCI and HIPAA,http://www.vastnet.net/images/logo_2.png,,,http://www.vastnet.net/,"""Doors"" Access Control System, Camera Monitoring, Climate Control",
+Level 3 Denver 1,"1850 Pearl Street
+80203 Denver",Denver,,Colorado,,,,,,,,,,"39.745024, -104.979735",,"network mapping in coar share
+Connected directly to network backbone","Level 3 cloud connect, Access 20-plus cloud providers including AWS, Microsoft® AzureTM, Office 365, Skype for Business and Google.
+ Alternate carrier networks available",viLogics Data Centers,,,,AC and DC Power,"managed, dedicated fiber, Dark fiber. 54,000 intercity route miles in North America connecting more than 150 cities. 26,000 metro route miles in North America. Separate dedicated NOC for Managed Dedicated Fiber customers.
+turnaround on logical moves, upgrades and new meshing.
+",,carrier neutral   ,UPS and battery backup,Yes, N+1 HVAC configuration,,,"BBIX Tokyo, Equinix Singapore, HKIX, NAPAfrica IX Johannesberg
+http://www.level3.com/en/legal/ip-traffic-exchange-policy/
+",compliance reports for physical security and information security policies. ViaWest,http://www.level3.com/~/media/images/global-images/logo_header.png?h=38&la=en&w=143,,,http://datacenters.level3.com/data-center/denver-co/,"Dual Authentication System
+-Dry pipe fire suppression
+ -Ecaro-25 gaseous fire suppression
+ -Temperature alarms
+ -Humidity alarms
+-Monitored building management system
+-Motion sensors
+-Video surveillance
+-Customer key-card entry
+-Biometric entry
+-On-site staffing
+
+
+","Level 3® MPLS/IP VPN Services
+Level 3 Internet Services
+Level 3® Managed Network Services
+Level 3SM Managed Security Services
+Level 3® Content Delivery Network Services
+Level 3SM Unified Communications and Collaboration Services "
+Level 3 Denver 3,"910 15th Street
+80202 Denver",Denver,,Colorado,,,,,,,"7,500 sq. ft.
+Colocation Space: 2,246 sq. ft",,,"39.745552, -104.995703",,"*note* - CenturyLink announced plans to acquire Level 3 communications on 10/31/16
+
+located within 910telecom",*it's difficult to identify what the differences betwee Level 3 Denver 1 and Level 3 Denver 3,,,,,DC Power,Diverse fiber connectivity (probably similar to Level 3 Denver1),,NOT carrier neutral,battery backup,generator backup,N+1 HVAC configuration,,,"BBIX Tokyo, Equinix Singapore, HKIX, NAPAfrica IX Johannesberg","enables businesses to become compliant in the Financial, Healthcare and Federal",http://www.level3.com/~/media/images/global-images/logo_header.png?h=38&la=en&w=143,,,http://datacenters.level3.com/data-center/denver-co/,"
+Generator and battery backup
+multi-layered security control procedures
+
+
+
+
+",http://www.level3.com/en/legal/ip-traffic-exchange-policy/
+"Cogent Communications, Inc. ","4643 S Ulster St
+80237 Denver",Denver,,Colorado,,,,,,,"DC1: 3,060 square feet non-raised floor data center.
+DC2: 3,325 square feet raised floor data center space",,,"39.630567, -104.897035",,"Dedicated Internet Access, IP Transit and Ethernet Point-to-Point. Operates autonomous systems AS174. Cogent's AS is the most interconnected network on the Internet, with over 5,820 AS networks connected","colocation, connects directly to tier 1 network. FULL SLA- guarantees 100% global network availability, 99.9% packet delivery, less than 45 milliseconds roundtrip latency and proactive outage notification within 15 minutes.",,,,virtual flor plan here: http://www.cogentco.com/tour/colocation.html,"Onan Automatic Transfer Switch - 800 amps
+Generac Automatic Transfer Switch - 400 amps
+(1) APC 60kW Power Distribution Unit","Gigabit Ethernet to multiple 10 Gigabit Ethernet 
+http://www.cogentco.com/en/network/network-map
+",,carrier neutral,"(1) MGE UPS Unit - 180kVA; Model: Galaxy VM
+(1) Modular Battery Cabinet - 48 batteries total","Cummins Diesel Generator - 500kW (500DFED)
+","(4) 20-ton Liebert HVAC units with rooftop condenser units for the data center
+(1) 20-ton & (1) 10-ton Liebert unit with rooftop condenser units for the Electrical room","2,000 gallon diesel fuel storage tank",, backbone routing and network eficiency test for cogent here: http://www.cogentco.com/en/network/looking-glass selective peering strategy- extensive private peering agreements with major carriers,"industries that require regulatory authority of PCI DSS, HIPAA, FISMA, NIST 800-53",http://cogentco.com/files/images/media_kit/Cogent-Logo_Color.png,,,http://www.cogentco.com/en/,"C*CURE Software House Card Reader Access Control System; (7) card readers total at every essential door
+(4) IP cameras with remote monitoring & recording capabilities; recording to DVR system.
+Entrance into data center requires HID card swipe and unique pin code for access.
+Building system access card required for after-hours, weekends, and holidays; also for after-hours freight elevator usage.
+Pre-action Fire Suppression system; Gas Fire Suppression system in both data center rooms and all electrical rooms.
+Standard Rack Configuration
+- 42U Cabinets (Type: APC AR3100)",
+DENVER-01 (Forethought.net),"2347 Curtis St
+80205 Denver",Denver,,Colorado,,,,,,,,,,"39.754553, -104.985706",,"100% plenum induction (raised floor and plenum ceiling
+Cold Aisle/ Hot Aisle Architecture
+TLS and MPLS network connectivity","100Mbps or 1000Mbps uplink connections. 
+Managed platform-neutral cloud services-  includes IaaS, web hosting, hosted fax, email servers, etc.
+provides ethernet over copper – EoC, wireless, bonded T1s, DSL and fiber optic connections with speeds from 5M to 1 Gigabit.",,,,,"redundant N+ power 
+A/B power ","has own metro MPLS fiber network, can provide cross-connects to any carrier's Ethernet service via this fiber network - ",,carrier neutral ,"Triple-redundant generating stations — Centralized, fault-tolerant UPS power. A/B UPS systems.",onsite backup generator,"redundant N+ cooling.  HVAC is provided by quad redundant Liebert CRAC systems.
+Stable monitored cooling",,,"
+public peering: CoreSite - Any2 Denver
+6653
+206.51.46.14
+2605:6c00:303:303::1
+private peering: 
+CoreSite - DE1
+6653
+United States
+Denver
+EdgeConneX Denver (EDCDEN01)
+6653
+United States
+Englewood
+","and ITAR standards. Additionally, ViaWest annually registers its adherence to the",https://forethought.net/wp-content/uploads/2013/12/forethought-logo71.png,,,https://forethought.net,,
+Handy Networks,"1801 California St, Suite 240",Denver,,Colorado,,,,,,,4000 sq. ft of raised floor ,,,"39.747712, -104.989797",,"network is powered by a pair of redundant Juniper M5 routers and Cisco 6500 series switches. All edge and core equipment is interconnected in a full network mesh for redundancy and scalability. Internal network operates at 2Gb/sec.
+ fully burstable 1Gb/sec connections to TimeWarner Telecom and Level3. Qwest and MCI/Verzion Business are both available. Utilizes SuperMicro based servers that can scale up to 1024GB of RAM, dozens of processor cores and multiple 10Gb network connections. All systems feature RAID1, RAID10 or Nimble Storage SAN space ","colocation, managed vps, self managed dedicated, Automated, Unmetered Backups using R1Soft CDP technology, Proactive Monitoring & Response",,,,,"has power feeds from multiple substations. Electrical service is connected to  Mitsubishi 375KVA UPS, which delivers conditioned power to the data center",N+1 redundant network,,,Mitsubishi 375kVA UPS with maintenance bypass wrap around switch. Redundant “B” side power is delivered via a PowerWare 9315 160KVA UPS. Both A and B side power are generator backed,Dedicated diesel generator - can carry entire data center load.  Building life safety systems are backed up by a separate generator,Cooling and humidity is controlled by 7 air handling units: N+1 redundancy,,N+1 redundant cooling,,US-EU Safe Harbor Privacy framework,http://dev.handynetworks.com/wp-content/themes/handy/images/logo.png,,,https://www.handynetworks.com/," entire network is protected by a pair of redundant, inline TopLayer IPS 5500-1000 units. The TopLayer IPS 5500 series provide protection against malicious content through  IPS technology, against undesired access through stateful firewall filtering, and against rate-based attacks through DDoS mitigation. TopLayer IPS 5500s are the only intrusion system protection to ever receive  double NSS approved award in a single test.
+ 24x7 on-site security
+24x7 escorted access
+Dry pipe fire suppression
+45% humidity with variation of no more than 4 degrees to temperature and 4% humidity","Both A and B power is generator backed by individual 250KW gensets.,which can power
+our data center for over 24 hours in the event of an extended utility outage"
+Massive Networks Denver 1,910 15th st.,Denver,,Colorado,,,,,,,,,,"39.745568, -104.995693",," provide customers with enterprise level services for Colocation, IAAS, SAAS /Hosting Solutions, Hosted Exchange, Network Security, Data Storage & Protection Services.
+specifically designed to provide internet & bandwidth services, cloud computing, Hosting services and Hosted VoIP for  mission-critical infrastructure and applications demands. ","Cloud exchange IaaS (AWS, Azure, Google), Colocation, dedicated servers, data storage solutions, backup & recovery, business continuity, disaster protection solutions ",,,,,"120Volt 20Amp AC power circuit,  additional 120Volt 20Amp AC power circuit from a diverse and redundant power source (“B” side), Two 12 slot power strips (120V 20 Amp service only),  Additional power requirements e.g. 208 Volt power available"," Ethernet over Copper and Ethernet over fiber. 
+connected to multiple tier 1 internet back bones ",,,,,,,,"
+Equinix Dallas
+ ",HIPAA compliant,http://media.cdn.builtincolorado.com/sites/www.builtincolorado.com/files/imagecache/opengraph/company_logos/massive-networks-logo2.jpg,,,www.massivenetworks.com/, Blended Bandwidth from 1MB to 10GB plus,
+HOSTING - Denver,"900 S. Broadway, Suite 400",Denver,,Colorado,,,,,,,"Square footage: 41,400 (Facility); 30,000 (Colocation)",,,"39.700210, -104.987405",,Fully meshed routing and switching architecture. Network boasts multi-homed bandwidth. Two points of entry and two diverse paths. CAT6 or fiber access to each row of cabinets or cages. Raised Flooring Controls Air Flow for Steady Temperature,"Colocation, cloud hosting, managed hosting services, compliant hosting, ",,,,,"120V and 208V Circuits
+N+1 Redundant power and power feeds.
+Automatic transfer switches designed for seamless
+cutovers.
+14 megawatts of building power capacity",3-4 bandwidth providers to the data center - Fiber enters facility from  two different paths (not colocated),,"Redundant network carriers include Qwest, XO, Time Warner, Internap and MHO","Two N+1 UPS (Powerware 9395,550kVA/500kW)","One megawatt of N+1 generator capacity.
+4 Diesel generators.
+Generators housed in dedicated secured enclosures on rooftop ","Redundant Liebert ventilation and cooling units.  Utilizes green Design Standards for airflow management guarantee a stable temperature
+and humidity.", 88+ hour fuel capacity,,,"compliant for: HIPAA, PCI DSS and SOC 2 and 3",http://avata.com/wp-content/uploads/2015/05/Hosting_dot_com_logo.jpg,,,http://www.hosting.com/,"Fire detection: Fike Cheetah Photoelectric + VESDA
+Fire suppression: Pre-action dry pipe.
+Security personnel on site 24 x 7 x 365
+Security cameras throughout building and surrounding area, keycard Entrance at Office and at Data Center corridor, security Corridor/Man trap, biometric hand scanners.",
+Equinix DE1 Denver,"9706 E. Easter Avenue, Suite 160",Englewood,,Colorado,,,,,,,"12,000+ square feet of colocation space",,,"39.587392, -104.876328",," Denver data center is a business hub for more than 30 companies. Equinix Denver customers can choose from a broad range of network services from more than 10 providers. They can also interconnect directly to customers and partners in their digital supply chain. Close to several telecommunications companies’ headquarters, including Level 3, Zayo and TW Telecom. Connect to key communications networks serving the Chicago and San Francisco metropolitan areas. 
+","colocation, Cloud infrastructure, Disaster Recovery, CDN, Applications and content acceleration, WAN optimization","Spotify, Foursquare, CDM Smith, Priceline.com, Accelera Solutions, Trivago",,,,N+1,Connect buyers and sellers of Ethernet services worldwide through Equinix Internet Exchange,,Carrier neutral - Connections to 10+ network service providers,,,N+1 Cooling Redundancy,,,"Leverage Equinix Internet Exchange, the world’s most widely distributed peering and traffic exchange, peering 2,500 Gbps of IP traffic to over 90% of the world’s Internet routes.","     
+SSAE16 SOC-1 Type II, SOC-2 Type II, ISO 27001
+",,http://www.equinix.com/industries/networks/,,,,"Sectors that equinix services (not denver specific) Federal Gov't, Healthcare, Media and entertainment, "
+CentryLink DN1,9180 Commerce Center Circle,Littleton,,Colorado,,,,,,,84053 sf,,,"I think this is the location, I would like confirmation.
+Located near Denver International Airport; 40 minutes from Denver, CO",,"Three of the almost 60+ CenturyLink Technology Solutions data centers around the globe are located in Denver, Colorado. CenturyLink provides customers with dedicated access to the CenturyLink Tier 1 IP backbone. HAN Internet access service offers customers high bandwidth Internet connectivity — from 1
+megabit to 10 gigabits. Layer 2 switched infrastructure","Colocation, Cloud, Managed
+Hosting, Managed Security, Storage, and Network solutions",,,,,"Xcel Energy provides
+power feeds. Power density minimum
+(W/sf) = 150
+Total Power Capacity =
+21.9 MW","agnostic CAT5E, COAX and Singlemode/Multimode Fiber
+connectivity",,"AT&T, CenturyLink, Comcast, Level 3, Verison, Zayo",,Generator configuration = N + 1,"Cooling system configuration
+= N + 1
+clean air circulation","Minimum two fuel
+replenishing companies",,"CenturyLink Denver (DN1), CenturyLink New Jersey (NJ5), CenturyLink Sunnyvale (SN1) dedicated access to the CenturyLink Tier 1 IP backbone","HIPAA compliant, PCI DSS Compliant, AICPA SOC Compliant, ISO 27001 Certified",http://www.centurylink.com/business/enterprise/hidden/savvis-footer/_jcr_content/par/columncontrol_0/col2/image.img.png/1477974809782.png,,,http://www.centurylink.com/business/enterprise/colocation/data-centers/denver.html,"from 1
+megabit to 10 gigabits high bandwidth Internet connectivity",
+CentryLink DN2,9110 Commerce Center Circle,Littleton,,Colorado,,,,,,,"56,000 sf  ",,,"I think this is the location, I would like confirmation.
+Located near Denver International Airport; 40 minutes from Denver, CO",,"CenturyLink offers industry standard
+agnostic CAT5E, COAX and Singlemode/Multimode Fiber connectivity. One story building
+Total building interior(sf) = 56,000
+Raised floor (inches) = 24
+
+","Colocation with direct access to Hybrid IT, Cloud, Managed
+Hosting, Managed Security, Storage, and Network solutions;",,,,,Total Power Capacity = 21.9 MW. Xcel Energy provides power feeds. Power density minimum (W/sf) = 150. ,"agnostic CAT5E, COAX and Singlemode/Multimode Fiber
+connectivity",,"CenturyLink, Comcast, Level 3",,Generator configuration = N + 1,Cooling system configuration = N + 1,Minimum two fuel replenishing companies,,,"HIPAA compliant, PCI DSS Compliant, AICPA SOC Compliant, ISO 27001 Certified",http://www.centurylink.com/business/enterprise/hidden/savvis-footer/_jcr_content/par/columncontrol_0/col2/image.img.png/1477974809782.png,,,http://www.centurylink.com/business/enterprise/colocation/data-centers/denver.html,"VESDA provides early warning detection. Pre-Action system utilizes two detection methods; one ionized and one photo electric detector interlocked with the dry pipe sprinkler system. CenturyLink manages temperature and humidity to strict ASHRAE standard
+
+",
+CenturyLink DN3,8534 Concord Center Drive,Englewood,,Colorado,,,,,,,"85,660 sf ",,,"I think this is the location, I would like confirmation.
+Located near Denver International Airport; 40 minutes from Denver, CO",,"CenturyLink offers industry standard
+agnostic CAT5E, COAX and Singlemode/Multimode Fiber connectivity. Located near Denver International Airport. 25 minutes from Denver, CO. One story building. Total building interior (sf) = 85,660. Raised floor (inches) = 24","Colocation with direct access to Hybrid IT,  Cloud, Managed
+Hosting, Managed Security, Storage, and Network solutions;",,,,,Total power capacity: 7.2 MW. Power density minimum (W/sf) = 150. Xcel Energy provides power feeds. ,"agnostic CAT5E, COAX and Singlemode/Multimode Fiber
+connectivity",,"CenturyLink, AT&T, Neutral Tandem, Suddenlink Communications, Time Warner Telecom, Qwest Local, XO Communications",,Generator configuration = N + 1,Cooling system configuration = N + 1,Minimum two fuel replenishing companies,,,"E.U.
+SafeHarbor U.S. Department of Commerce, PCI Security Council
+Standards, ISO, ISAE 3402, SSAE16 and HIPAA Compliance",http://www.centurylink.com/business/enterprise/hidden/savvis-footer/_jcr_content/par/columncontrol_0/col2/image.img.png/1477974809782.png,,,http://www.centurylink.com/business/enterprise/colocation/data-centers/denver.html,"VESDA provides early warning detection. Pre-Action system utilizes two detection methods; one ionized and one photo electric detector interlocked with the dry pipe sprinkler system. CenturyLink manages temperature and humidity to strict ASHRAE standard
+
+",
+Latisys *acquired by zayo in 2015,393 Inverness Parkway,Englewood,,Colorado,,,,,,,"53,200 sq ft",,,"39.564112, -104.866565",,"*Latisys was acquired by Zayo Group in February 2015. Latisys is a Tier III data center facility located in the Denver Tech Center, south of downtown Denver, Colorado. Latisys-Denver is a SAS 70 Type II audited facility that is fully manned with 24/7/365 on site technical and remote hands support.","Colocation, private cloud, dedicated servers, federated cloud",,,,,"AC and DC power distribution and metered power available, 5.2mW total utility power capacity, redundant power. three separate utility feeds with diverse paths back to the substation. 1.6 designed PUE","114,500 route miles of Zayo fiber. Dark fiber: 8.9 million fiber miles, w/ 9k miles underway. Fiber Map in coar share. Multiple redundant fiber connections to all major networks",,"Carrier-neutral connectivity with access to over 66 of the world’s largest ISPs and content providers: 
+AT&T, CenturyLink, Cogent, Comcast, DirectLink, Level 3 Communications, MHO Wireless, Savvis, TW Telecom, Verizon, XO Communications, Zayo
+
+",2N UPS redundancy,4200KW of on-site generator capacity at N+1 redundancy; expandable to 6000KW,,,N+1 cooling. High-density redundant cooling systems,,"
+
+    SOC 2 Type II & SOC 3
+    HIPAA
+    PCI
+
+",http://media2.cdn.builtincolorado.com/sites/www.builtincolorado.com/files/imagecache/opengraph/company_logos/zayo-only-orange-small.png,,,http://www.zayo.com/facilities/393-inverness-pkwy/,"22 Gbps of Internet bandwidth active over four Tier-1 providers with capacity to expand. Zone 1 earthquake-rated reinforced structure. SLAs supported by geographically diverse NOCs. 
+Alarm system includes an extensive digital recording network of hundreds of high-resolution cameras monitoring all entry points and colocation areas with at least 90 days of recorded playback
+    24×7 monitoring and security
+    Multi-level access authorization with mantrap, biometric verification and security controlled access level  assignment
+
+",
+8534 Concord Center,8534 Concord Center Drive,Englewood,,Colorado,,,,,,,,,,"39.560781, -104.830709",,"*there are no specifics on denver, so I'm not sure if this applies.","Service exchange to cloud service (AWS, Google Cloud, Microsoft Azure) Colocation,  Data Center Suite, Powered Shells,  cloud, ",,,,,,"Choice of copper Ethernet or fiber optic connections., Open-IX peering opportunities. Digital Realty provided Internet access at speeds ranging from
+100MB to 10GB. Burstable service options – such as a 10Mbps connection that can “burst” to 100Mbps, All Digital Realty data centers are IP-enabled with services provided by Digital in conjunction with 
+Internet Service Provider partners.",,"Carrier neutral, to include Zayo, CenturyLink, Level3, Commscope, Align, Sungard availability services, Rackspace, AT&T, NaviSite",,,,,,,,https://www.digitalrealty.com/assets/img/svg/logo-light.svg,,,https://www.digitalrealty.com/data-centers/north-america/,,
+Earthnet Data Center Boulder,4735 Walnut St. Suite F,Boulder,,Colorado,,,,,,,,,,"40.019765, -105.242079",,"Earthnet Data Center is triple earth-grounded and are built completely on computer-grade raised flooring. Tier 3 ++ data centerOverhead ladder-rack wiring systems are utilized for enhanced cooling and a more secure cable infrastructure. 4"" ADC fiber tray is also available throughout the facility.","Colocation, Cloud Services (private and hybrid), Managed Services,","Geral Sosbee, Spyder Active Sports, Computer Troubleshooters, omnimap, NEH Records LLC, Art Smoot",,,,Incoming service is routed underground to  ASCO Automatic Transfer Switch (ATS),"GigE backbones to the internet through Comcast and CenturyLink. 4"" ADC fiber tray is also available throughout the facility",,"Carrier Neutral. Earthnet delivers dual Data center exclusively selected premium Tier-1 bandwidth providers, ensuring minimal latency (delay). Direct connectivity with Mammoth and Century Link. Aggregate Tier-2 peering includes Sprint, UUNet, Cable & Wireless, Genuity, NTT/Verio, Global Crossing, 360networks, Dash Carrier, Hurricane Electric, Internap, Century Link, RMIX, Tinet, and XO. Comcast maintains a presence in Data Center","Earthnet utilizes a pair of redundant 300kVa Powerware 9315  UPSs. Each unit features dual battery cabinets and a full maintenance bypass allowing for service and upgrades without interruption of power to our servers. All UPS batteries were last replaced in 2015. Pulazzi power distribution units handle final power transformation, suppression, and distribution to racks. The intermediate load is transferred by  Powerware UPS System, able to support the system for over an hour, even though the the generator is active and up to speed in less than 20 seconds of a power failure",Generator backup services are provided by a Volvo powered Elliott-Magnatek 350KW diesel generator featuring over 24 hours of autonomous runtime before requiring refueling. Generator power is activated automatically in the event of a grid failure by an ASCO automatic transfer switch. Tested weekly.,"Fully redundant Liebert System 3 20-ton up-flow air conditioning units, as well as a 20-ton economizer on the roof. Each unit contains independent compressors and cooling loops to further guarantee fault tolerance and reliability. Our Liebert AC Units continuously pump chilled air into the pressurized raised floor of our data center, maintaining a consistent operating environment for your servers. Air filtration systems actively remove foreign particulates from circulation and cycle the entire data center air supply regularly, in a matter of minutes.",24 hour onsite fuel supply ,,,Earthnet is SSAE16 type II certified (formerly SAS70). Auditor is Linford & company LLP.,http://www.earthnet.net/wp-content/themes/earthnet/assets/images/logo.jpg,,,http://www.earthnet.net,"Data center access is strictly limited to technical staff. Clients not on  access-list are not allowed into the data center without an escort.
+
+Access to the data center and attached facilities requires a card-key. Electronic security systems controlled data center access and are accompanied by a full compliment of motion detectors which are strategically placed throughout the entire facility.
+
+Security system is fully logged and monitored locally, as well as by Safe Systems externally. 8 video cameras provide 24/7 video surveillance.",
+Thorton Colorado Data Center (Avaya?),12121 Grant Street,Thorton,,Colorado,,,,,,,"291,421",,,"39.917271, -104.986303",,"Built in 1983 the precast and steel building is seven stories plus a partial Penthouse. The six upper floors are identically designed to be one-half office consisting of 15,425 SF and one-half data center consisting of 14,934 SF. This arrangement is ideally suited for full floor tenants allowing easy personnel access between the two spaces. In total, the facility has 291,421 GSF; the data center area is approximately 124,772 SF of 18 raised floor, and the office space is 115,920 SF, featuring 6 raised floor. Each typical structural floor is rated at 150 lbs per SF dead and live loads combined in the data centers and 100 lbs per SF dead and live loads in the office areas. The first floor is rated at 250 lbs per SF and has meeting rooms, storage areas, a large cafeteria and receiving dock area. There are four dock high loading doors and a trash compactor in a fifth bay. The first floor is approximately 31,006 SF.","colocation, Enterprise Cloud, Unified Communications, Managed Services, Video Managed Services, Contact Center Managed Services, Data Networking Managed Services",*this looks to be owned by the morgan reed group,,,,,, Under Construction/Proposed ,carrier neutral,,,,,,,,,,,http://www.bizjournals.com/denver/blog/real_deals/2014/03/avaya-moving-lab-operations-to-thornton-services.html,Looks like avaya is moving into this location as of March 10 2014,
+4dv.net,"6 Inverness Drive East, First Floor",Englewood,,Colorado,,,,,,,,,,,,"*this website looks to be down, I cant find any further information",,,,,,,,,,,,,,,,,,,,,,
+XO Englewood,"9706 E. Easter Avenue, Suite 100 Bldg.C",Englewood,,Colorado,,,,,,,,,,"39.587384, -104.876328",,"4 KW per cabinet or 160 W per sq ft,  10 ft ceiling heights, Slab on grade, Built-up roof, Remote hands services available, environmental systems monitored remotely via XO NOC 24x7x365XO Communications is a leading nationwide provider of advanced communications, managed network and IT infrastructure services for business, large enterprise and wholesale customers. These
+customers include more than half of the Fortune 500, in addition to leading cable, mobile wireless and
+domestic and international telecommunications companies. XO offers a superior customer experiencetrough its innovative data and IP solutions, its employees’ focus on customers and the proven performance of its advanced network.","colocation, 24/7 monitoring network services",,,,,"Single feed AC commercial service
+backed by XO-owned generator set, Power room is separated from
+technical space, DC power system. N+1 plus 20% minimum rectification. Dual distribution paths (A&B feeds)","XO Communications operates a nationwide
+multi-terabit network. 
+ nationwide IP and transport networks, metro networks,
+broadband wireless access and connectivity
+to global service locations for door-to-door delivery of customer traffic nationwide and
+around the world",,carrier neutral,"Equipped with two battery strings, Designed to maintain a minimum
+of nine minutes of backup time at
+full load, Maintenance bypass cabinet to
+allow for concurrent maintenance
+while load is sustained, Dual distribution paths available by
+diverse panels. Monthly preventive maintenance
+performed. Semi-annual comprehensive
+maintenance performed","XO-owned standby generator on site
+connected via automatic transfer switch. On-site fuel storage designed to maintain more than 24 hours of reserve time at full load. Generator is run weekly and load
+tested monthly
+Semi-annual comprehensive preventive
+maintenance performed.","N+1 HVAC capacity maintained via
+glycol-cooled Precision Cooling System, Monthly preventive maintenance
+performed, Quarterly comprehensive maintenance
+performed",,,"AMS-IX, DE-CIX Frankfurt, Equinix Ashburn, Equinix Chicago, Equinix Hong Cong, Equinix San Jose, LINX LON1, LINXLON2, 910 telecom (denver) https://www.peeringdb.com/net/13",,https://www.dft.com/sites/default/files/logos/xo%20high.png,,,https://www.xo.com/sites/default/files/inline-files/9706_East_Easter_0.pdf,"Pre-action fire sprinkler system
+Monthly preventive maintenance
+performed",
+Latisys DEN2 (zcolo denver),6900 S. Peoria Street,Centennial,,Colorado,,,,,,,81900 sq ft,,,"39.591026, -104.847581",,"Single cabinet and custom cage deployments, edundant cooling and power distribution engineered at 175 to 310 watts per square foot and features raised floor space specifically optimized for high-density and ultra-high-density deployments, data center facility at 6900 South Peoria Street in Centennial, CO is air-containment optimized and has a reflective white roof that prevents solar heat from entering the building. Inside, energy efficient “green” cooling solutions are engineered to achieve an industry-leading PUE of 1.3. ",colocation,,,,,"AC/DC breakered and metered power available, 10mW total utility power capacity, three separate utility feeds with diverse paths back to the substation, 1.3 designed PUE, 2N+1 power architecture",zayo fiber (see fiber map in share),Mantrap secure and biometric security access controlled areas," Carrier neutral: 
+CenturyLink, Comcast, DirectLink, Level 3 Communications, TW Telecom, XO Communications,  Zayo
+
+","2N UPS redundancy, Six separate N+1 UPS systems","3 generators (2,000kW each), 2N+1 configuration","adiabatic free cooling, and CRAH air handlers",,High-density redundant cooling systems. Cooling technologies include: chilled water platform ,private peering facility: zColo Denver - 6900 S Peoria St (https://www.peeringdb.com/net/8197),"SOC 2 Type II & SOC 3, HIPAA, PCI
+
+",http://media2.cdn.builtincolorado.com/sites/www.builtincolorado.com/files/imagecache/opengraph/company_logos/zayo-only-orange-small.png,,,http://www.zayo.com/facilities/6900-s-peoria-st/,"VESDA pre-action dry pipe fire suppression system, Zone 1 earthquake-rated reinforced structure, SLAs supported by geographically diverse NOCs","24×7 monitoring and security, Mantrap secure and biometric security access controlled areas
+    Dual mode authentication via badge and biometric hand geometry to access all data center spaces
+    Single point of contact ensures that only your authorized personnel can access your colocation space
+    Alarm system including an extensive digital recording network of hundreds of high-resolution cameras throughout facility
+
+"
+Clear Channel Satellite, 76 Inverness Drive East Suite B,Englewood,,Colorado,,,,,,,,,,"39.579978, -104.859098",,"company offers audio distribution for radio syndication, satellite space for those who have their own satellite uplinks for both Ku and C-Band, two way IP communications for business needing contingency solutions for remote offices, and a complete stock of satellite equipment. Clear Channel Satellite provides complete satellite packages providing space segments on multiple satellites; space segment for radio, television, Internet, paging, VoIP; and disaster recovery services for both fixed and mobile services. The primary uplink network is located in a 20,000 square feet  secure facility near Denver. The facility provides standard 19″ and 23″ racks and custom cabinet configurations for custom colocation setups. The data center provides environmentally controlled antistatic floor for colocation space.","colocation options from single server, rack space in 1U increment, half cabinets, and full cabinets",,,,,"The data center has also 10,000 Amp DC power plant. Transition of power from utility to generator power and back forth is managed by Automatic Transfer Switch in matter of seconds."," data center uses BGP routing topology for efficient and fastest routing paths, and Cisco routers and switching equipment",,Carrier neutral facility with multi-homed data connection and multi-satellite data connection covering North America,"UPS cluster with multiple battery strings, with automatic transfer of load to a backup diesel generator",backup diesel generator of 750 kVA capacity,Multiple HVAC units with separate cooling zones automate the cooling and humidity levels in the data center delivering over 120 tons of cooling.,"1,500 gallons of fuel storage tank onsite",,,,,,,http://www.clearchannelsatellite.com/,"24x7x365 onsite staff, motion detection video surveillance for building and colocation areas, monitoring through automated systems, and secure access into facility through the use of card key. The facility uses dual stage fire detection system for an early sensing of particulates, leak detection ring, and pre action dry pipe fire suppression system to extinguish any fire spark.",
+XO Denver,313 Inverness Way South,Englewood,,Colorado,,,,,,,,,,"39.565498, -104.861838",,"Colocated Cabinet Solutions, Full-sized secured locking cabinets available. cages can be customized to fit to vendor specific requirements with access provided only to your designated
+representatives. Secure locking cages.  XO-provided cabinets/racks available","Colocation, cloud, backup, security, and managed services",,,,,"Dual distribution paths (A&B feeds), DC power system, Power room is separated from technical space, Single feed AC commercial service","XO Communications operates a nationwide multi-terabit network that delivers industry leading IP and network solutions.  nationwide IP and transport networks, metro networks,
+broadband wireless access and connectivity to global service locations for door-to-door delivery of customer traffic nationwide and
+around the world.",,carrier neutral,"N+1 plus 20% minimum rectification Designed for more than four hours of battery reserve on 2 battery strings. Designed to maintain a minimum
+of nine minutes of backup time at
+full load. Dual distribution paths available by
+diverse panels","XO-owned standby generator onsite
+connected via automatic transfer switch. Generator is run weekly and load tested monthly. Semi-annual comprehensive preventive
+maintenance performed","N+1 HVAC capacity maintained via
+glycol-cooled Precision Cooling System. ","On-site fuel storage designed to maintain
+more than 24 hours of reserve time at
+full load",,"it looks like they own their own peer, see network map in share",,https://www.xo.com/themes/custom/xo/images/xo_purple.png,,,https://www.xo.com,"Pre-action fire sprinkler system, FM-200 gas fire suppression system, Monthly preventive maintenance
+performed","   XO comms has 20,000-route mile national inter-city network,  1.2 million metro fiber miles,  More than 4,000 on-net buildings, More than 1,000 unique central offices. Extensive reach providing data services through a variety of options to business locations in North and South America, Europe, Africa, and Asia/Pacific regions
+"
+H5 Datacenter,5350 South Valentia Way,Greenwood Village,,Colorado,,,,,,,"300,000 sq ft",,,"39.618082, -104.891534",,"private data center owner and operator.  provide scalable data center and facility solutions. H5 Data Centers currently owns data centers in Atlanta, Charlotte, Denver, San Jose, San Luis Obispo, and Seattle.","colocation, build-to-suit data center, powered shells",,,,,"17.5 MWs of Xcel Energy power, power from diverse substations","served by regional, national and international telecommunications and fiber carriers with dual, redundant campus entrances. ",mantraps ,"carrier neutral -  manages two (2) diverse carrier-neutral Meet-Me Rooms (MMRs), each with interconnected distribution infrastructure. 10 onsite communication carriers: T&T, comcast business, XO communications, CenturyLink, Level(3), Zayo, Cogent, Verison, Sharktech",N+1 or 2N+1 UPS redundancy,N+1 emergency generators,,2 underground diesel tanks,2 underground water tanks,,SSAE SOC 1 Type II certified,http://h5datacenters.com/images/logo.png,,,http://h5datacenters.com/denver-data-center.html,"Motion-sensitive fences, 24x7 onsite security staff, and multiple layers of access checkpoints make this data center one of Colorado's most secure facilities. After the events of 9/11, the United States Department of Transportation (DOT) even approved of the data center's security parameters.",
+OneNeck IT Solutions,8675 Concord Center Dr,Englewood,,Colorado,,,,,,,"35,000 sq ft, building out to expand to 160,000 sq ft",,,"39.559285, -104.832666",," This purposely-built, newly constructed Tier 3+ facility (Tier 4 electrically) provides 35,000 square feet of space. Built with best-of-breed technologies to help you stay ahead of the curve, this facility provides colocation and customizable data and cloud storage options - all with no down time. ","colocation, secure cloud management via ReliaCloud, ERP application management",,,,,"Xcel Energy power, Utility feeds: two 2500 kVA utility transformers. 
+Critical Load: 1600 kW, phase 2 will have 8000 kW of critical load power",Managed bandwidth with BGP routing across redundant backbone,," carrier semi-neutral: CenturyLink, Comcast, Level3, TDS Telecom, Zayo",2N  ,Four 1.5 mW,N+1,,,,"HIPAA, SSAE 16, PCI, ISO 27001, SOC 1 Type 2",http://www.oneneck.com/common/img/logo.png,,,http://www.oneneck.com/colocation/data-centers/denver,"Fire detection: VESDA (Very Early Smoke Detection Apparatus). Fire supression: FE25 Clean Agent (ECARO25). 
+Access Control: Three-factor authentication- Biometric, proximity card and PIN.
+Surveillance System: Recorded and monitored digital video at 50+ points.
+Security Officers: Patrol facility 24/7
+",
+TW Telecom Denver, 14200 E Jewell Ave,Aurora,,Colorado,,,,,,,,,,"39.680744, -104.823115",,*acquired by Level 3 Communications on Nov 1 2014 - Is now referred to as Level (3),"Level 3 Network, Security, Voice, UC&C, Content Distribution,  Managed and Professional Services. Access 20-plus leading cloud providers including AWS, Microsoft® AzureTM, Office 365, Skype for Business and Google",,,,,AC and DC power distribution,"Standalone and bulk cable cross connects in variety of cable types, sizes and connectors. Connected directly to our network backbone, this facility leverages Level 3’s extensive metro grid to help expand your IT footprint",,Carrier neutral,Battery backup,"Yes, backup generator",N+1 HVAC Configuration,,,"BBIX Tokyo
+Equinix Singapore
+HKIX
+NAPAfrica IX JohannesburgPeering
+https://www.peeringdb.com/net/504",,http://datacenters.level3.com/wp-content/themes/FAS-THEME/_assets/build/img/mobile/logo-2x.png,https://en.wikipedia.org/wiki/TW_Telecom,,http://datacenters.level3.com/data-center/denver-co/,"
+    Dry pipe fire suppression
+    Ecaro-25 gaseous fire suppression
+    Temperature alarms
+    Humidity alarms.  Monitored building management system.  Motion sensor.  Video surveillance. Customer key-card entry Biometric entry. On-site staffing
+
+
+",
+EdgeConneX Denver - EDCEN01, 8535 Highfield Pkwy,Englewood,,Colorado,,,,,,,"98,900 sq ft facility - 6,000 sq ft of raised floor for tenant racks",,,"39.561057, -104.826678",,"EdgeConneX specializes in providing purpose-built, edge-of-network facilities that enable the fastest delivery of bandwidth intensive, latency sensitive content and applications to local
+consumers and enterprises. Temperature and humidity monitored, controlled and managed to industry standards. 30 inch raised/under floor forcedair plenum","cloud, colocation, compliance, edge data center, edge pop, edge wireless, cloud connect",,,,,Concurrently maintainable power in a minimum of an N+1 configuration. Capable of 20+kW per cabinet.  Capable of 600+ watts per sq ft. Ghost space not required for coolingpower dense installations. Real-time branch circuit monitoring,"Building POEs are diverse, with a variety offiber conduits to physically diverse MMR’s. proximity
+to cable, ILEC and
+wireless networks in
+markets across the
+United States",,"AT&T, CenturyLink, Cogent, Comcast, Integra, Level 3, Windstream, XO and Zayo, Level 3, tw telecom. Interconnection services available",UPS available,"Yes, backup generator","N+1 CRACs located in separate suites, maximizing customer-designated areas",,,,"SOC 2 type II, PCI DSS, HIPAA",http://sales.edgeconnex.com/custom/themes/default/images/company_logo.png?v=b9xOlIN-JAyKWsmY6SmfmQ&logo_md5=3400cdb62dd4f9df9f9c14298cead801,,,http://www.edgeconnex.com/edge-data-center-locations/,"Pre-action, zoned dry-pipe sprinkler systems with zoned maintenance aislesand separate suites.  Remote hands services for break fixes, configuration and troubleshooting. EdgeConneX Services: design, build, implement and maintain your equipment infrastructure. EdgeOS, our next generation data centeroperating system provides real-time visibility, including ticketing and SLA management for all EDC locations"," Multi-stage security containment systems that use PIN and live video authentication.  Mantraps and strictly enforced protocols regarding entry access. 24/7 Color CCTV/video surveillanceand >90-day online video storage. Interior managed security zones. National network operations centerfor security management
+24/7 NOC services"
+"Intrado Communications, Inc. - Renamed ""West"" in 2015",1601 Dry Creek Dr.,Longmont,,Colorado,,,,,,,,,,"40.139131, -105.135811",,"Delivers interconnection services for all types of providers, including wireless, wireline, cable and voice over Internet protocol (VoIP).  operates next-gen national network, provides carrier-grade interconnections, reduces costs and merging traditional telecom, mobile and IP technologies onto a common, efficient backbone. ","Accuracy compliance testing, cell broadcasting services, E911 services, location performance management, wireless dispach location services, V911, VOIP, CLEC, SIP trunking, OTT2911, ILEC, Performs Base Station Almanac (BSA) optimization and maintenance generation and calibration, Performs BSA optimization service, BSA maintenance (daily visibility, updating, and maintenance), Comprehensive project management, Generates calibration test points",,,,,,"West Telecom Services operates an optical backbone between all switches and to most carrier destinations. Established wireless infrastructure. West Telecom Services owns and operates redundant IP-capable switches. Gives carriers and service providers a flexible, reliable and custom solution for carrier-to-carrier traffic exchangeoperates an IP-ready network, capable of effectively moving any type of traffic across any network element while maintaining routing, jurisdiction and critical call information intact all the way to the call destination.",,,,,,,,,"FCC Compliance and reporting, OET-71 compliant",https://www.west.com/wp-content/uploads/2015/05/west_logo.png,https://en.wikipedia.org/wiki/Intrado,,https://www.west.com/,,"Interestingly, massive 911 outage traced to software error  at colorado's Intrado: http://www.bizjournals.com/denver/morning_call/2014/10/massive-911-outage-traced-to-glitch-at-colorados.html "

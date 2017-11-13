@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "DNVTCOUZ", "FolderPath": "Windstream Lit Buildings-7\/9\/2015-Callahan", "SymbolID": 0, "AltMode": -1, "Base": 0.000000, "Snippet": null, "PopupInfo": "DNVTCOUZ - 2975 WALNUT ST, DENVER, CO 80205", "HasLabel": 0, "LabelID": -1 }, "geometry": { "type": "Point", "coordinates": [ -104.982052, 39.762842, 0.0 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "DNVRCO26", "FolderPath": "Windstream Lit Buildings-7\/9\/2015-Callahan", "SymbolID": 0, "AltMode": -1, "Base": 0.000000, "Snippet": null, "PopupInfo": "DNVRCO26 - 910 15TH ST, DENVER, CO 80202", "HasLabel": 0, "LabelID": -1 }, "geometry": { "type": "Point", "coordinates": [ -104.995682, 39.74556, 0.0 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "LTRKAR32", "FolderPath": "Windstream Lit Buildings-7\/9\/2015-Callahan", "SymbolID": 0, "AltMode": -1, "Base": 0.000000, "Snippet": null, "PopupInfo": "LTRKAR32 - 13800 Morrison Rd, LITTLE ROCK, AR 72207", "HasLabel": 0, "LabelID": -1 }, "geometry": { "type": "Point", "coordinates": [ -105.1597775, 39.660587700000065, 0.0 ] } }
+]
+}

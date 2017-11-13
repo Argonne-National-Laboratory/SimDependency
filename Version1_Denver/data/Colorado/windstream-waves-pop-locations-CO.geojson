@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "CLSQCOMF - 100G Transport POP", "FolderPath": "Windstream Waves POP Locations - Callahan 8\/6\/2015", "SymbolID": 0, "AltMode": -1, "Base": 0.000000, "Snippet": null, "PopupInfo": "100G Tranport POP - CLSQCOMF - 1780 JET STREAM DR, COLORADO SPRINGS CO 80921", "HasLabel": 0, "LabelID": -1 }, "geometry": { "type": "Point", "coordinates": [ -104.79185, 38.997113889000047, 0.0 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "DNVTCOUZ - 100G Transport POP", "FolderPath": "Windstream Waves POP Locations - Callahan 8\/6\/2015", "SymbolID": 0, "AltMode": -1, "Base": 0.000000, "Snippet": null, "PopupInfo": "100G Transport POP - DNVTCOUZ - 2975 WALNUT ST, DENVER CO 80205", "HasLabel": 0, "LabelID": -1 }, "geometry": { "type": "Point", "coordinates": [ -104.98204967899994, 39.762826141000062, 0.0 ] } }
+]
+}

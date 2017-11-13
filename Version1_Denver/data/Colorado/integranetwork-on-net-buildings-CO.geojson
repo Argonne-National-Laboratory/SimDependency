@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": null, "description": "Carrier Hotel<br \/><br \/>910 15TH ST<br \/>DENVER, CO 80202", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -104.995669, 39.745603, 1591.108642 ] } },
+{ "type": "Feature", "properties": { "Name": null, "description": "Commercial Building<br \/><br \/> 999 18TH ST  Bldg SOUTH TOWER <br \/>DENVER, CO 80202", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -105.000224, 39.754103, 1581.261596 ] } },
+{ "type": "Feature", "properties": { "Name": null, "description": "Integra Switch\/Hub<br \/><br \/>999 18TH ST <br \/>DENVER, CO 80202", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -104.991325, 39.749235, 1590.194335 ] } }
+]
+}
